@@ -21,7 +21,7 @@ This function handle :
 - `%X` : Prints a number in hexadecimal (base 16) uppercase format.
 - `%%` : Prints a percent sign.
 
-##Examples of usage
+## Examples of usage
 
 ```
 printf("Hello %s !", Anthony);
