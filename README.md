@@ -2,7 +2,7 @@
 
 ## because ft_putnbr and ft_putstr isn't enough
 
-This project is part of the first circle of projects of the 42 cursus. The goal is reproduce the behaviour of the function `printf` (included in `stdio.h`). It also  make me learn about variadic functions (functions that can take a variable number of arguments). You will find the subject of the project into the repository. My grade : 100/100.
+This project is part of the first circle of projects of the 42 common core. The goal is reproduce the behaviour of the function `printf` (included in `stdio.h`). It also  make me learn about variadic functions (functions that can take a variable number of arguments). You will find the subject of the project into the repository. My grade : 100/100.
 
 ## How to use it
 
