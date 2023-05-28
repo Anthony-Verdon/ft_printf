@@ -1,10 +1,10 @@
-SRCS	= ft_printf.c \
-		  ft_putnbr_base.c \
-		  ft_putchar.c \
-		  ft_putstr.c \
-		  ft_strlen.c \
-		  ft_iterative_power.c \
-		  ft_strchr.c
+SRCS	= srcs/ft_printf.c \
+		  srcs/ft_putnbr_base.c \
+		  srcs/ft_putchar.c \
+		  srcs/ft_putstr.c \
+		  srcs/ft_strlen.c \
+		  srcs/ft_iterative_power.c \
+		  srcs/ft_strchr.c
 
 OBJS 	= ${SRCS:.c=.o}
 

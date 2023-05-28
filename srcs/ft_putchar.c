@@ -1,27 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: averdon <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/28 15:35:20 by averdon           #+#    #+#             */
-/*   Updated: 2022/10/05 13:04:53 by averdon          ###   ########.fr       */
+/*   Created: 2022/09/28 15:39:57 by averdon           #+#    #+#             */
+/*   Updated: 2023/05/28 12:58:16 by averdon          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"ft_printf.h"
+#include "../includes/ft_printf.h"
 
-int	ft_putstr(char *s)
+int	ft_putchar(char c)
 {
-	int	len_s;
-
-	if (!s)
-	{
-		write(1, "(null)", 6);
-		return (6);
-	}
-	len_s = ft_strlen(s);
-	write(1, s, len_s);
-	return (len_s);
+	write(1, &c, 1);
+	return (1);
 }
